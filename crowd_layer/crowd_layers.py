@@ -5,14 +5,12 @@ import keras
 from keras import backend as K
 from keras.engine.topology import Layer
 
-
 def init_identities(shape, dtype=None):
 	out = np.zeros(shape)
 	for r in xrange(shape[2]):
 		for i in xrange(shape[0]):
 			out[i,i,r] = 1.0
 	return out
-
 
 class CrowdsClassification(Layer):
 

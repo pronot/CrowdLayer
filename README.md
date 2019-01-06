@@ -1,4 +1,4 @@
-# CrowdLayer
+# CrowdLayer - pronot fork
 A neural network layer that enables training of deep neural networks directly from crowdsourced labels (e.g. from Amazon Mechanical Turk) or, more generally, labels from multiple annotators with different biases and levels of expertise, as proposed in the paper:
 
 > Rodrigues, F. and Pereira, F. Deep Learning from Crowds. In Proc. of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18).
